@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="total">
+        <div class="img1">
+            <img src="./img1.jpg" alt="" srcset="">
+        </div>
+        <div class="pamplet img1">
+            <div class="heading">
+                <h2>ATLAS PACKERS AND MOVERS</h2>
+            </div>
+            <div>
+                <form action="">
+                    <table>
+                        <tr id="info">
+                            <th colspan="2" id="reloc-info">
+                                Relocation Info<br>Personal Info<br>Get a  quote
+                            </th>
+                        </tr>
+                        <tr>
+                            <td colspan="2" id="reloc" class="side-heading">
+                                <a href="/">Relocation Information</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 50%;">
+                                <select name="" id="city" style="width: 80%;">
+                                    <option value="">Select Your Current City</option>
+                                </select>
+                            </td>
+                            <td style="width: 50%;">
+                                <input type="date" name="" id="date" >
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Select Category
+                            </td>
+                            <td>
+                                <input type="radio" name="reloc" id="home" >
+                                <label for="home">Home Relocation</label>
+                                <input type="radio" name="reloc" id="office">
+                                <label for="office">Factory/Office Relocation</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <textarea name="" id="" cols="30" rows="4" placeholder="From Address"></textarea>
+                            </td>
+                            <td>
+                                <textarea name="" id="" cols="30" rows="4" placeholder="To Address"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Distance in km(approx)</td>
+                            <td>
+                                <input type="range" name="" id="" min="10" max="100" class="distance slider">
+                                <span id="demo"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="side-heading">
+                                <a href="/">Personal Information</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Customer Name</td>
+                            <td><input type="text" name="" id="" placeholder="Enter the customer name" class="inpall"></td>
+                        </tr>
+                        <tr>
+                            <td>Phone Number</td>
+                            <td><input type="number" name="" id="" placeholder="Enter the Phone Number"  class="inpall"></td>
+                        </tr>
+                        <tr>
+                            <td>Email ID</td>
+                            <td>
+                                <input type="email" name="" id="" placeholder="Enter the Email ID"  class="inpall">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Get a quote!</td>
+                        </tr>
+                        <tr>
+                            <td>Possible Charges Involved</td>
+                            <td>
+                                <input type="checkbox" name="charges" id="packing" value="200">
+                                <label for="packing">Packing Charges</label>
+                                <input type="checkbox" name="charges" id="loading" value="240">
+                                <label for="loading">Loading Charges</label>
+                                <input type="checkbox" name="charges" id="tranportation" value="290">
+                                <label for="tranportation">Tranportation Charges</label>
+                                <input type="checkbox" name="charges" id="unloading" value="300">
+                                <label for="unloading">Unloading Charges</label>
+                                <input type="checkbox" name="charges" id="unpacking" value="500">
+                                <label for="unpacking">Unpacking Charges</label>
+                                <input type="checkbox" name="charges" id="escort" value="450">
+                                <label for="escort">Escort Charges</label>
+                                <input type="checkbox" name="charges" id="octorio" value="270">
+                                <label for="octorio">Octorio Charges</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">**Quote you receive will include service tax of 12.3%</td>
+                        </tr>
+                    </table>
+                    <div style="display: inline-flex; justify-content: space-between; align-items: center;">
+                        <button id="btn-final" class="btn" onclick="result()">GET A QUOTE</button>
+                        <p class="output">QUOTATION PRICE: ₹<span id="quote">0</span></p>
+                        <button class="btn reset" onclick="reset()">RESET</button>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+   <script src="script.js"></script>
+        
+</body>
+</html>

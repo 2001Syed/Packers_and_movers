@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading{
+    color: red;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.total{
+    display: flex;
+
+}
+
+img{
+    margin: 10px;
+    width: 95%;
+
+}
+.heading>h2{
+    margin: 10px;
+    padding: 5px;
+    display: inline-flex;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.pamplet{
+    margin: 20px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgb(75, 121, 117);
+}
+table{
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+td,th{
+    margin: 2px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: small;
+}
+
+#reloc-info{
+    text-align: left;
+    text-decoration: 1.2px underline;
+    font-weight: lighter;
+}
+
+.side-heading>a{
+    text-decoration: none;
+    color: red;
+}
+
+#home, #office{
+    border-radius: 50px;
+}
+
+.inpall{
+    padding: 2px;
+}
+
+.btn{
+    margin: 20px;
+    padding: 5px 15px;
+    color: red;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.last-quote{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    position: relative;
+    margin: 10px 20px;
+    padding: 10px 10px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.output{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: rgb(211, 185, 185);
+    font-weight: 700;
+    border: 2px solid black;
+    padding: 5px 50px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.reset{
+    color: black;
+}
